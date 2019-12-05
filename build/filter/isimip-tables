@@ -1,0 +1,77 @@
+#!/usr/bin/env python
+import logging
+import os
+import re
+
+import requests
+
+import requests_cache
+from pandocfilters import Table, toJSONFilter
+
+logger = logging.getLogger(__file__)
+
+requests_cache.install_cache(backend='memory')
+
+PATTERN = r'\{\#tbl\:(.+?)\}'
+
+BASE_URL = 'https://raw.githubusercontent.com/ISI-MIP/isimip-schema/master/schema/'
+# BASE_URL = 'http://schema.isimip.org/'
+
+
+def inject_table(key, value, format, meta):
+    if key == 'Table':
+        logger.debug('value = %s', value)
+
+        # loop over value[0] and look for the table id
+        for node in value[0]:
+            logger.debug(node)
+            m = re.match(PATTERN, node.get('c', ''))
+            if m:
+                url = BASE_URL + m.group(1)
+                break
+
+        logger.debug('url = %s', url)
+
+        # fetch the definition from the schema repository
+        response = requests.get(url)
+        response.raise_for_status
+        definition = response.json()
+
+        # loop over value[3] and gather columns
+        columns = []
+        for node in value[3]:
+            string = node[0]['c'][0]['c']
+
+            if string == 'Specifier':
+                columns.append('const')
+            else:
+                columns.append(string.lower())
+
+        logger.debug('columns = %s', columns)
+
+        # loop over the definition and gather rows
+        rows = []
+        for item in definition['anyOf']:
+            rows.append([item[column] for column in columns])
+        logger.debug('rows = %s', rows)
+
+        # loop over rows and append nodes to value[4]
+        for row in rows:
+            node = []
+            for item in row:
+                node.append([{
+                    't': 'Plain',
+                    'c': [
+                        {'t': 'Str', 'c': item}
+                    ]
+                }])
+            value[4].append(node)
+
+        logger.debug('value = %s', value)
+
+        return Table(*value)
+
+
+if __name__ == "__main__":
+    logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO'))
+    toJSONFilter(inject_table)
