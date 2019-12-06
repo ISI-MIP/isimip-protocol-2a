@@ -4,7 +4,6 @@ import os
 import re
 
 import requests
-
 import requests_cache
 from pandocfilters import Table, toJSONFilter
 
@@ -51,7 +50,7 @@ def inject_table(key, value, format, meta):
 
         # loop over the definition and gather rows
         rows = []
-        for item in definition['anyOf']:
+        for item in definition['oneOf']:
             rows.append([item[column] for column in columns])
         logger.debug('rows = %s', rows)
 
