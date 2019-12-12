@@ -4,7 +4,7 @@
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://ISI-MIP.github.io/isimip-protocol-2a/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://ISI-MIP.github.io/isimip-protocol-2a/manuscript.pdf)
-[![Build Status](https://travis-ci.org/ISI-MIP/isimip-protocol-2a.svg?branch=master)](https://travis-ci.com/ISI-MIP/isimip-protocol-2a)
+[![Build Status](https://travis-ci.org/ISI-MIP/isimip-protocol-2a.svg?branch=master)](https://travis-ci.org/ISI-MIP/isimip-protocol-2a)
 
 ## Manuscript description
 
@@ -74,7 +74,7 @@ bash build/autobuild.sh
 
 ### Continuous Integration
 
-[![Build Status](https://travis-ci.com/ISI-MIP/isimip-protocol-2a.svg?branch=master)](https://travis-ci.com/ISI-MIP/isimip-protocol-2a)
+[![Build Status](https://travis-ci.org/ISI-MIP/isimip-protocol-2a.svg?branch=master)](https://travis-ci.org/ISI-MIP/isimip-protocol-2a)
 
 Whenever a pull request is opened, Travis CI will test whether the changes break the build process to generate a formatted manuscript.
 The build process aims to detect common errors, such as invalid citations.
