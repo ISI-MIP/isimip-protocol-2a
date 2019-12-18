@@ -65,11 +65,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://ISI-MIP.github.io/isimip-protocol-2a/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://ISI-MIP.github.io/isimip-protocol-2a/v/28145daaceb6634f7cfd412407000db101d3096c/" />
+  <link rel="alternate" type="text/html" href="https://ISI-MIP.github.io/isimip-protocol-2a/v/0f486350c89fc26171024f24d2e00ce9e76b9cc7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://ISI-MIP.github.io/isimip-protocol-2a/v/28145daaceb6634f7cfd412407000db101d3096c/" />
+  <meta name="manubot_html_url_versioned" content="https://ISI-MIP.github.io/isimip-protocol-2a/v/0f486350c89fc26171024f24d2e00ce9e76b9cc7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://ISI-MIP.github.io/isimip-protocol-2a/v/28145daaceb6634f7cfd412407000db101d3096c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://ISI-MIP.github.io/isimip-protocol-2a/v/0f486350c89fc26171024f24d2e00ce9e76b9cc7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -97,9 +97,9 @@ title: ISIMIP Protocol 2a (Manubot experiment)
 
 <small><em>
 This manuscript
-([permalink](https://ISI-MIP.github.io/isimip-protocol-2a/v/28145daaceb6634f7cfd412407000db101d3096c/))
+([permalink](https://ISI-MIP.github.io/isimip-protocol-2a/v/0f486350c89fc26171024f24d2e00ce9e76b9cc7/))
 was automatically generated
-from [ISI-MIP/isimip-protocol-2a@28145da](https://github.com/ISI-MIP/isimip-protocol-2a/tree/28145daaceb6634f7cfd412407000db101d3096c)
+from [ISI-MIP/isimip-protocol-2a@0f48635](https://github.com/ISI-MIP/isimip-protocol-2a/tree/0f486350c89fc26171024f24d2e00ce9e76b9cc7)
 on December 18, 2019.
 </em></small>
 
@@ -160,8 +160,8 @@ Table: Caption for this example table.
 
 #### Stations
 
-| Specifier | River |Title | Lat | Lon |
-|-----------|-------|------|-----|-----|
+| Specifier | Region | Title | Lat | Lon |
+|-----------|--------|-------|-----|-----|
 
 Table: Catchment gauging stations for reporting regional hydrological model results.
 {#tbl:ISIMIP2a/OutputData/station/water.json}
