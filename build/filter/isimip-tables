@@ -50,19 +50,23 @@ def inject_table(key, value, format, meta):
         # loop over value[3] and gather columns
         columns = []
         for node in value[3]:
-            string = node[0]['c'][0]['c']
+            try:
+                string = ''.join([item.get('c', '_') for item in node[0]['c']]).lower()
 
-            if string == 'Specifier':
-                columns.append('const')
-            else:
-                columns.append(string.lower())
+                if string == 'specifier':
+                    columns.append('const')
+                else:
+                    columns.append(string)
+
+            except IndexError:
+                pass
 
         logger.debug('columns = %s', columns)
 
         # loop over the definition and gather rows
         rows = []
         for item in definition['oneOf']:
-            rows.append([item[column] for column in columns])
+            rows.append([item.get(column) or '' for column in columns])
         logger.debug('rows = %s', rows)
 
         # loop over rows and append nodes to value[4]
@@ -72,7 +76,7 @@ def inject_table(key, value, format, meta):
                 node.append([{
                     't': 'Plain',
                     'c': [
-                        {'t': 'Str', 'c': item}
+                        {'t': 'Str', 'c': str(item)}
                     ]
                 }])
             value[4].append(node)
