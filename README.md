@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/ISI-MIP/isimip-protocol-2a/tree/gh-pages) branch hosts the contents of this directory at https://ISI-MIP.github.io/isimip-protocol-2a/.
-The permalink for this webpage version is https://ISI-MIP.github.io/isimip-protocol-2a/v/28145daaceb6634f7cfd412407000db101d3096c/.
+The permalink for this webpage version is https://ISI-MIP.github.io/isimip-protocol-2a/v/0f486350c89fc26171024f24d2e00ce9e76b9cc7/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://ISI-MIP.github.io/isimip-protocol-2a/v/freeze/.
 
 ## Files
@@ -36,4 +36,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`28145daaceb6634f7cfd412407000db101d3096c`](https://github.com/ISI-MIP/isimip-protocol-2a/commit/28145daaceb6634f7cfd412407000db101d3096c).
+[`0f486350c89fc26171024f24d2e00ce9e76b9cc7`](https://github.com/ISI-MIP/isimip-protocol-2a/commit/0f486350c89fc26171024f24d2e00ce9e76b9cc7).
