@@ -48,9 +48,9 @@
   <meta property="twitter:url" content="https://ISI-MIP.github.io/isimip-protocol-2a/" />
   <meta name="citation_fulltext_html_url" content="https://ISI-MIP.github.io/isimip-protocol-2a/" />
   <meta name="citation_pdf_url" content="https://ISI-MIP.github.io/isimip-protocol-2a/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://ISI-MIP.github.io/isimip-protocol-2a/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://ISI-MIP.github.io/isimip-protocol-2a/v/0f486350c89fc26171024f24d2e00ce9e76b9cc7/" />
-  <meta name="manubot_html_url_versioned" content="https://ISI-MIP.github.io/isimip-protocol-2a/v/0f486350c89fc26171024f24d2e00ce9e76b9cc7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://ISI-MIP.github.io/isimip-protocol-2a/v/0f486350c89fc26171024f24d2e00ce9e76b9cc7/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://ISI-MIP.github.io/isimip-protocol-2a/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://ISI-MIP.github.io/isimip-protocol-2a/v/81809cc251ad8da64ab59234f4684efb02e585ab/" />
+  <meta name="manubot_html_url_versioned" content="https://ISI-MIP.github.io/isimip-protocol-2a/v/81809cc251ad8da64ab59234f4684efb02e585ab/" />
+  <meta name="manubot_pdf_url_versioned" content="https://ISI-MIP.github.io/isimip-protocol-2a/v/81809cc251ad8da64ab59234f4684efb02e585ab/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" /> <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
@@ -61,7 +61,7 @@
 <header id="title-block-header">
 <h1 class="title">ISIMIP Protocol 2a (Manubot experiment)</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://ISI-MIP.github.io/isimip-protocol-2a/v/0f486350c89fc26171024f24d2e00ce9e76b9cc7/">permalink</a>) was automatically generated from <a href="https://github.com/ISI-MIP/isimip-protocol-2a/tree/0f486350c89fc26171024f24d2e00ce9e76b9cc7">ISI-MIP/isimip-protocol-2a@0f48635</a> on December 18, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://ISI-MIP.github.io/isimip-protocol-2a/v/81809cc251ad8da64ab59234f4684efb02e585ab/">permalink</a>) was automatically generated from <a href="https://github.com/ISI-MIP/isimip-protocol-2a/tree/81809cc251ad8da64ab59234f4684efb02e585ab">ISI-MIP/isimip-protocol-2a@81809cc</a> on December 18, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>John Doe</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/johndoe">johndoe</a> · <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" /> <a href="https://twitter.com/johndoe">johndoe</a><br> <small> Department of Something, University of Whatever · Funded by Grant XXXXXXXX </small></p></li>
@@ -134,18 +134,275 @@
 <h2 id="water" class="page_break_before">Water</h2>
 <h4 id="stations">Stations</h4>
 <div id="tbl:ISIMIP2a/OutputData/station/water.json" class="tablenos">
-<table>
+<table style="width:100%;">
 <caption><span>Table 4:</span> Catchment gauging stations for reporting regional hydrological model results. </caption>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th>Specifier</th>
 <th>Region</th>
+<th>Specifier</th>
 <th>Title</th>
 <th>Lat</th>
 <th>Lon</th>
+<th>GRDC Station Code</th>
+<th>Data availability monthly discharge</th>
+<th>Data availability daily discharge</th>
+<th>Area upstream</th>
 </tr>
 </thead>
 <tbody>
+<tr class="odd">
+<td>amazon</td>
+<td>sao-paulo-de-olivenca</td>
+<td>São Paulo de Olivenca</td>
+<td>-3.45</td>
+<td>-68.75</td>
+<td>3623100</td>
+<td>1979-1993</td>
+<td>1973-2010</td>
+<td>990781</td>
+</tr>
+<tr class="even">
+<td>blue-nile</td>
+<td>el-diem</td>
+<td>El-Deim, Sudan Border</td>
+<td>11</td>
+<td>35</td>
+<td></td>
+<td>1961-2002</td>
+<td>1900-1982</td>
+<td>160000</td>
+</tr>
+<tr class="odd">
+<td>blue-nile</td>
+<td>khartoum</td>
+<td>Khartoum</td>
+<td>15.62</td>
+<td>32.55</td>
+<td>1663100</td>
+<td></td>
+<td>1900-1982</td>
+<td>325000</td>
+</tr>
+<tr class="even">
+<td>danube</td>
+<td>wien-nussdorf</td>
+<td>Wien-Nußdorf</td>
+<td>48.25</td>
+<td>16.3</td>
+<td>6242500</td>
+<td>1828-1899</td>
+<td>1900-to date</td>
+<td>101700</td>
+</tr>
+<tr class="odd">
+<td>ganges</td>
+<td>farakka</td>
+<td>Farakka</td>
+<td>25</td>
+<td>87.92</td>
+<td>2846800</td>
+<td>1949-1973</td>
+<td></td>
+<td>835000</td>
+</tr>
+<tr class="even">
+<td>godavari</td>
+<td>tekra</td>
+<td>Tekra</td>
+<td>19</td>
+<td>80</td>
+<td></td>
+<td>1964-2017</td>
+<td>1964-2017</td>
+<td>119781</td>
+</tr>
+<tr class="odd">
+<td>indus</td>
+<td>tarbela</td>
+<td>Tarbela Reservoir</td>
+<td>72.86</td>
+<td>34.33</td>
+<td></td>
+<td>2000-2016</td>
+<td>2000-2016</td>
+<td>173345</td>
+</tr>
+<tr class="even">
+<td>lena</td>
+<td>krestovski</td>
+<td>Krestovski</td>
+<td>59.73</td>
+<td>113.17</td>
+<td>2903427</td>
+<td>1936-2002</td>
+<td>1936-1999</td>
+<td>440000</td>
+</tr>
+<tr class="odd">
+<td>lena</td>
+<td>stolb</td>
+<td>Stolb</td>
+<td>72.37</td>
+<td>126.8</td>
+<td>2903430</td>
+<td>1978-1994</td>
+<td>1951-2002</td>
+<td>2460000</td>
+</tr>
+<tr class="even">
+<td>mackenzie</td>
+<td>arctic-red-river</td>
+<td>Arctic Red River</td>
+<td>67.4583</td>
+<td>-133.745</td>
+<td>4208025</td>
+<td>1972-1996</td>
+<td>1972-2015</td>
+<td>1660000</td>
+</tr>
+<tr class="odd">
+<td>mississippi</td>
+<td>alton</td>
+<td>Alton</td>
+<td>38.885</td>
+<td>-90.1809</td>
+<td>4119800</td>
+<td>1928-1984</td>
+<td>1933-1987</td>
+<td>444185</td>
+</tr>
+<tr class="even">
+<td>darling</td>
+<td>louth</td>
+<td>Louth</td>
+<td>-30.5318</td>
+<td>145.1144</td>
+<td>5204250</td>
+<td>1954-2000</td>
+<td>1954-2008</td>
+<td>489300</td>
+</tr>
+<tr class="odd">
+<td>niger</td>
+<td>dire</td>
+<td>Dire</td>
+<td>16.2667</td>
+<td>-3.3833</td>
+<td>1134700</td>
+<td>1924-2012</td>
+<td>1924-2003</td>
+<td>340000</td>
+</tr>
+<tr class="even">
+<td>niger</td>
+<td>koulikoro</td>
+<td>Koulikoro</td>
+<td>-30.5318</td>
+<td>-7.55</td>
+<td>1134100</td>
+<td>1907-2012</td>
+<td>1907-2006</td>
+<td>120000</td>
+</tr>
+<tr class="odd">
+<td>niger</td>
+<td>lokoja</td>
+<td>Lokoja</td>
+<td>7.8</td>
+<td>6.7667</td>
+<td>1834101</td>
+<td>2007-2012</td>
+<td>1970-2006</td>
+<td>2074171</td>
+</tr>
+<tr class="even">
+<td>niger</td>
+<td>tossaye</td>
+<td>Tossaye</td>
+<td>16.9416</td>
+<td>-0.579166</td>
+<td>1134850</td>
+<td>1954-1992</td>
+<td>1954-1992</td>
+<td>348000</td>
+</tr>
+<tr class="odd">
+<td>pajeu</td>
+<td>floresta</td>
+<td>Floresta</td>
+<td>-8.6089</td>
+<td>-38.5767</td>
+<td></td>
+<td></td>
+<td></td>
+<td>12266</td>
+</tr>
+<tr class="even">
+<td>rhine</td>
+<td>lobith</td>
+<td>Lobith</td>
+<td>51.84</td>
+<td>6.11</td>
+<td>6435060</td>
+<td>1901-1996</td>
+<td>1901-2010</td>
+<td>160800</td>
+</tr>
+<tr class="odd">
+<td>tagus</td>
+<td>almourol</td>
+<td>Almourol</td>
+<td>39.47</td>
+<td>-8.37</td>
+<td>6113050</td>
+<td>1973-1990</td>
+<td>1982-1990</td>
+<td>61490</td>
+</tr>
+<tr class="even">
+<td>tagus</td>
+<td>trillo</td>
+<td>Trillo</td>
+<td>40.7</td>
+<td>-2.58</td>
+<td>6213800</td>
+<td>1977-1984</td>
+<td>1977-1984</td>
+<td>3253</td>
+</tr>
+<tr class="odd">
+<td>yangtze</td>
+<td>cuntan</td>
+<td>Cuntan</td>
+<td>29.616667</td>
+<td>106.6</td>
+<td></td>
+<td>1987-2006</td>
+<td>1987-2006</td>
+<td>804859</td>
+</tr>
+<tr class="even">
+<td>yellow</td>
+<td>tangnaihai</td>
+<td>Tangnaihai</td>
+<td>35.5</td>
+<td>100.15</td>
+<td></td>
+<td>1971-2002</td>
+<td>1971-2002</td>
+<td>121000</td>
+</tr>
 </tbody>
 </table>
 </div>
