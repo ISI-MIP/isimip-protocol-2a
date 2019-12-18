@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2019-12-16'
+date-meta: '2019-12-18'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -21,9 +21,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="ISIMIP Protocol 2a (Manubot experiment)" />
 
-  <meta name="dc.date" content="2019-12-16" />
+  <meta name="dc.date" content="2019-12-18" />
 
-  <meta name="citation_publication_date" content="2019-12-16" />
+  <meta name="citation_publication_date" content="2019-12-18" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -65,11 +65,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://ISI-MIP.github.io/isimip-protocol-2a/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://ISI-MIP.github.io/isimip-protocol-2a/v/98d87b4240f495893bb4c7c189b254a81bffe47c/" />
+  <link rel="alternate" type="text/html" href="https://ISI-MIP.github.io/isimip-protocol-2a/v/28145daaceb6634f7cfd412407000db101d3096c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://ISI-MIP.github.io/isimip-protocol-2a/v/98d87b4240f495893bb4c7c189b254a81bffe47c/" />
+  <meta name="manubot_html_url_versioned" content="https://ISI-MIP.github.io/isimip-protocol-2a/v/28145daaceb6634f7cfd412407000db101d3096c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://ISI-MIP.github.io/isimip-protocol-2a/v/98d87b4240f495893bb4c7c189b254a81bffe47c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://ISI-MIP.github.io/isimip-protocol-2a/v/28145daaceb6634f7cfd412407000db101d3096c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -97,10 +97,10 @@ title: ISIMIP Protocol 2a (Manubot experiment)
 
 <small><em>
 This manuscript
-([permalink](https://ISI-MIP.github.io/isimip-protocol-2a/v/98d87b4240f495893bb4c7c189b254a81bffe47c/))
+([permalink](https://ISI-MIP.github.io/isimip-protocol-2a/v/28145daaceb6634f7cfd412407000db101d3096c/))
 was automatically generated
-from [ISI-MIP/isimip-protocol-2a@98d87b4](https://github.com/ISI-MIP/isimip-protocol-2a/tree/98d87b4240f495893bb4c7c189b254a81bffe47c)
-on December 16, 2019.
+from [ISI-MIP/isimip-protocol-2a@28145da](https://github.com/ISI-MIP/isimip-protocol-2a/tree/28145daaceb6634f7cfd412407000db101d3096c)
+on December 18, 2019.
 </em></small>
 
 ## Authors
@@ -154,6 +154,17 @@ Table: Caption for this example table.
 
 Table: Caption for this example table.
 {#tbl:ISIMIP2a/OutputData/wrong.json}
+
+
+## Water {.page_break_before}
+
+#### Stations
+
+| Specifier | River |Title | Lat | Lon |
+|-----------|-------|------|-----|-----|
+
+Table: Catchment gauging stations for reporting regional hydrological model results.
+{#tbl:ISIMIP2a/OutputData/station/water.json}
 
 
 ## References {.page_break_before}

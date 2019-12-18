@@ -7,15 +7,15 @@
       "manubot"
     ],
     "lang": "en-US",
-    "date-meta": "2019-12-16",
+    "date-meta": "2019-12-18",
     "author-meta": [
       "John Doe",
       "Jane Roe"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"ISIMIP Protocol 2a (Manubot experiment)\" />\n<meta name=\"citation_title\" content=\"ISIMIP Protocol 2a (Manubot experiment)\" />\n<meta property=\"og:title\" content=\"ISIMIP Protocol 2a (Manubot experiment)\" />\n<meta property=\"twitter:title\" content=\"ISIMIP Protocol 2a (Manubot experiment)\" />\n<meta name=\"dc.date\" content=\"2019-12-16\" />\n<meta name=\"citation_publication_date\" content=\"2019-12-16\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"John Doe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://ISI-MIP.github.io/isimip-protocol-2a/\" />\n<meta property=\"og:url\" content=\"https://ISI-MIP.github.io/isimip-protocol-2a/\" />\n<meta property=\"twitter:url\" content=\"https://ISI-MIP.github.io/isimip-protocol-2a/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://ISI-MIP.github.io/isimip-protocol-2a/\" />\n<meta name=\"citation_pdf_url\" content=\"https://ISI-MIP.github.io/isimip-protocol-2a/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://ISI-MIP.github.io/isimip-protocol-2a/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://ISI-MIP.github.io/isimip-protocol-2a/v/98d87b4240f495893bb4c7c189b254a81bffe47c/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://ISI-MIP.github.io/isimip-protocol-2a/v/98d87b4240f495893bb4c7c189b254a81bffe47c/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://ISI-MIP.github.io/isimip-protocol-2a/v/98d87b4240f495893bb4c7c189b254a81bffe47c/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"ISIMIP Protocol 2a (Manubot experiment)\" />\n<meta name=\"citation_title\" content=\"ISIMIP Protocol 2a (Manubot experiment)\" />\n<meta property=\"og:title\" content=\"ISIMIP Protocol 2a (Manubot experiment)\" />\n<meta property=\"twitter:title\" content=\"ISIMIP Protocol 2a (Manubot experiment)\" />\n<meta name=\"dc.date\" content=\"2019-12-18\" />\n<meta name=\"citation_publication_date\" content=\"2019-12-18\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"John Doe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://ISI-MIP.github.io/isimip-protocol-2a/\" />\n<meta property=\"og:url\" content=\"https://ISI-MIP.github.io/isimip-protocol-2a/\" />\n<meta property=\"twitter:url\" content=\"https://ISI-MIP.github.io/isimip-protocol-2a/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://ISI-MIP.github.io/isimip-protocol-2a/\" />\n<meta name=\"citation_pdf_url\" content=\"https://ISI-MIP.github.io/isimip-protocol-2a/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://ISI-MIP.github.io/isimip-protocol-2a/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://ISI-MIP.github.io/isimip-protocol-2a/v/28145daaceb6634f7cfd412407000db101d3096c/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://ISI-MIP.github.io/isimip-protocol-2a/v/28145daaceb6634f7cfd412407000db101d3096c/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://ISI-MIP.github.io/isimip-protocol-2a/v/28145daaceb6634f7cfd412407000db101d3096c/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
   },
   "manubot": {
-    "date": "December 16, 2019",
+    "date": "December 18, 2019",
     "authors": [
       {
         "github": "johndoe",
@@ -63,20 +63,20 @@
       "repo_slug": "ISI-MIP/isimip-protocol-2a",
       "repo_owner": "ISI-MIP",
       "repo_name": "isimip-protocol-2a",
-      "commit": "98d87b4240f495893bb4c7c189b254a81bffe47c",
-      "triggering_commit": "98d87b4240f495893bb4c7c189b254a81bffe47c",
-      "build_url": "https://travis-ci.org/ISI-MIP/isimip-protocol-2a/builds/624038699",
-      "job_url": "https://travis-ci.org/ISI-MIP/isimip-protocol-2a/jobs/624038700"
+      "commit": "28145daaceb6634f7cfd412407000db101d3096c",
+      "triggering_commit": "28145daaceb6634f7cfd412407000db101d3096c",
+      "build_url": "https://travis-ci.org/ISI-MIP/isimip-protocol-2a/builds/626718643",
+      "job_url": "https://travis-ci.org/ISI-MIP/isimip-protocol-2a/jobs/626718644"
     },
     "html_url": "https://ISI-MIP.github.io/isimip-protocol-2a/",
     "pdf_url": "https://ISI-MIP.github.io/isimip-protocol-2a/manuscript.pdf",
-    "html_url_versioned": "https://ISI-MIP.github.io/isimip-protocol-2a/v/98d87b4240f495893bb4c7c189b254a81bffe47c/",
-    "pdf_url_versioned": "https://ISI-MIP.github.io/isimip-protocol-2a/v/98d87b4240f495893bb4c7c189b254a81bffe47c/manuscript.pdf",
+    "html_url_versioned": "https://ISI-MIP.github.io/isimip-protocol-2a/v/28145daaceb6634f7cfd412407000db101d3096c/",
+    "pdf_url_versioned": "https://ISI-MIP.github.io/isimip-protocol-2a/v/28145daaceb6634f7cfd412407000db101d3096c/manuscript.pdf",
     "manuscript_stats": {
       "reference_counts": {
         "total": 0
       },
-      "word_count": 291
+      "word_count": 318
     }
   }
 }
